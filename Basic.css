@@ -1,0 +1,177 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+   
+
+}
+
+#navbar ul
+{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#navbar ul li
+{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a
+{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover
+{
+    color: black;
+    background-color: white;
+}
+
+#navbar::before
+{
+    content: "";
+    background-color: black;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+
+#logo
+{
+    margin: 6px 0px;
+}
+
+
+#logo img
+{
+    width: 100px;
+    margin: 1px 76px ;
+    
+}
+
+
+/* Main section */
+
+#home
+{
+    display: flex;
+    flex-direction: column;
+    height: 445px;
+    padding:3px 300px; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+#home::before
+{
+    content: "";
+    position: absolute;
+    background: url('background/bg.jpg')no-repeat center center/cover;
+    top: 0px;
+    left:0px;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+
+#home h1
+{
+        color: white;
+        text-align: center;
+        font-family: 'Bree Serif', serif;
+       
+}
+
+#home p
+{
+        color: white;
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: 'Bree Serif', serif;
+}
+
+/* Services class */
+
+#services
+{
+    display:flex;
+    
+    margin: 34px;
+}
+
+#services .box
+{
+    border: 2px solid red;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: #ffd65b;
+}
+
+#services .box img
+{
+    height:160px;
+    margin: auto;
+    display:block;
+   
+
+}
+
+
+
+/* Utility class */
+
+.h-primary
+{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary
+{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+
+.btn
+{
+    padding: 2px 20px;
+    border: 2px solid white;
+    margin: 17px;
+    background-color: red;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.center
+{
+    text-align: center;
+}
